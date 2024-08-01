@@ -1,0 +1,111 @@
+/* body styling */
+body {
+    background-color: #E9EEC5;
+}
+
+/* about content container styling */
+.about-content {
+    margin: 200px auto;
+    margin-bottom: 100px;
+    flex: 1;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutus-heading {
+    text-align: center;
+}
+.aboutus-heading h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.aboutus-heading h2 {
+    font-size: 40px;
+}
+
+/* sections styling */
+.section-abt-content {
+    margin: 20px 0;
+}
+.section-abt-content h3{
+    margin: 20px 0;
+    font-size: 35px;
+}
+.section-abt-content p{
+    font-size: 20px;
+}
+
+/* footer adjustment */
+#footer {
+    margin-top: 400px;
+}
+
+/*sections*/
+/* sectons styling */
+.sections-abt-container {
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-abt-content img{
+    height: 400px;
+  }
+  
+  .sections-abt-container #section1-abt {
+    height: 1400px;
+    
+  }
+  .section-abt-content {
+    background-color:  #e7e0ee;
+    border-radius: 10px;
+    padding: 20px;
+    height: 800px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .sections-abt-container #section4 p,
+  #section5 p,
+  #section6 p{
+    font-size: 30px;
+  }
+  #section4 img {
+    height: 400px;
+    max-width: 300px;
+  }
+  #section5 img, 
+  #section6 img {
+    height: 450px;
+    max-width: 300px;
+  }
+
+/* media query */
+@media ((min-width: 320px) and (max-width: 768px)) {
+    .about-content {
+        padding: 0 20px;
+    }
+    .aboutus-heading h1 {
+        font-size: 40px;
+    }
+    .aboutus-heading h2 {
+        font-size: 35px;
+    }
+    .section-abt-content h3{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .section-abt-content p{
+        font-size: 16px;
+    }
+    .sections-abt-container #section1-abt {
+        height: 1250px;
+        
+      }
+      .sections-abt-container #section2-abt,#section3-abt,#section4-abt {
+        height: 700px;
+        
+      }
+}

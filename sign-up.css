@@ -1,0 +1,154 @@
+
+.signup-content {
+    background-image: url(/images/lavender-intro2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    width: 1000px;
+}
+
+.wrapper{
+    max-width:500px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2) ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0,.2);
+    color: #E9EEC5;
+    border-radius:10px ;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px ;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    max-width:100% ;
+    height: auto;
+    margin: 30px 0;
+}
+.input-box input{
+    max-width: 100%;
+    max-height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forget label input{
+    accent-color: white;
+    margin-right:3px ;
+}
+.remember-forget a{
+    color: white;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration:underline ;
+}
+.wrapper .btn{
+    width: 400px;
+    height: 45px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.wrapper .btn a {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align:center ;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+header {
+    background: #E9EEC5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #E9EEC5;
+    box-shadow:
+        0.3em 0.3em 1em #B297CE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header svg {
+    display: none;
+    padding: 5px;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+}
+header svg:hover {
+    color: #E9EEC5;
+    box-shadow:
+    0.3em 0.3em 0.2em #B297CE;
+    background-color: #B297CE;
+} 
+
+@media ( (min-width: 320px) and (max-width: 768px)) {
+    .signup-content {
+        background-image: url(/images/lavender-intro.jfif);
+    }
+    .wrapper {
+        margin-top: 150px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+@media ( (min-width: 768px) and (max-width: 1024px)) {
+    .wrapper {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+@media  (min-width: 1024px) {
+    .wrapper {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}

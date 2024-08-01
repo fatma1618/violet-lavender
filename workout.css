@@ -1,0 +1,68 @@
+.workout-container{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.quote{
+    text-align: center;
+    font-size: 40px;
+}
+.workout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:  20px 70px;
+}
+
+.btn {
+    color: #7649a7;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #e7e0ee;
+    padding: 10px;
+    line-height: 20px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-align: center;
+    width: 440px;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: #B297CE;
+    box-shadow:
+        0.3em 0.3em 1em #B297CE;
+
+}
+.text{
+    text-decoration: dotted;
+    font-size: 30px;
+    margin: 10px;
+}
+img{
+    border-radius: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .workout-container{
+        margin-top: 200px;
+    }
+    .quote{
+        font-size: 35px;
+    }
+    .workout{
+        margin:  20px;
+    }
+    img {
+        width: 100%;
+    }
+    .btn {
+        width: 330px;
+    }
+}
